@@ -1,23 +1,36 @@
-*{
+.azeret-mono-normal {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+  *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-.first-part{
-    background: url(B10A1-Challenge-Begins/assets/Hero-bg.png);
-    height: 650px;
-    background-size: cover;
+  }
+  .banner-container{
+    width: 1414px;
+    height: 663px;
+    background-image: url(B10A1-Challenge-Begins/assets/Hero-bg.png);
     background-position: center;
-    position: relative;
-
-}
-.main1{
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .banner-content{
     display: flex;
-    flex-direction: column ;
+    flex-direction: column;
     justify-content: center;
+    height: 580px;
     align-items: center;
-    height: 40px;
-    margin-top: 200px;
-
-    
-
+  }
+.para1{
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 68px   
+}
+.para1, p{
+    width: 852px;
+    text-align: center;
+    border-bottom: 20px;
 }
