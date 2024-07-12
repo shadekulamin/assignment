@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.first-part{
+    background: url(B10A1-Challenge-Begins/assets/Hero-bg.png);
+    height: 650px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+.main1{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    margin-top: 200px;
+
+    
+
+}
