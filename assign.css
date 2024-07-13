@@ -29,7 +29,7 @@
 .para1{
   color: rgb(13, 19, 33);
   font-family: Azeret Mono;
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 800;
   line-height: 68px;
   letter-spacing: 0%;
@@ -53,7 +53,7 @@
     align-items: center;
 }
 button{
-  padding: 15px20px;
+  padding: 15px 20px;
 }
 .skill{
     width: 1000px;
@@ -134,7 +134,7 @@ left, h4{
 
 }
 
-.fuad{
+.tech{
   width: 1000px;
     height: 336px;
     display: flex;
@@ -147,7 +147,7 @@ left, h4{
   padding: 30px;
   width: 80%;
 }
-.bappi{
+.tech-ch{
   width: 20%;
 }
 .support{
@@ -157,9 +157,23 @@ left, h4{
   background: url(B10A1-Challenge-Begins/assets/handshake.jpg);
   background-position: center;
   background-size: cover;
+  color: white;
 }
 
-
-
-
+.spt{
+  color: #fff;
+}
+.btn{
+  margin-left: 300px;
+  display: flex;
+  align-items: center;
+}
+input{
+  height: 30px;
+  width: 300px;
+}
+.btn-hero{
+  margin-left: 10px;
+  height: 30px;
+}
   
